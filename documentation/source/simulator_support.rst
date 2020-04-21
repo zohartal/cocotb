@@ -234,6 +234,7 @@ In order to use this simulator, set :make:var:`SIM` to ``xcelium``:
 
 The simulator automatically loads VPI even when only VHPI is requested.
 
+This simulator supports Verilog/VHDL mixed-language designs as long as Verilog is at the top.
 
 .. _sim-ghdl:
 
