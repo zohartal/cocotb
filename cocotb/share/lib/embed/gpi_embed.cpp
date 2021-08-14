@@ -244,8 +244,7 @@ extern "C" COCOTB_EXPORT int _embed_sim_init(int argc,
         // LCOV_EXCL_STOP
     }
 
-    LOG_INFO("Python Verilog Verification (c)2021.");
-//    LOG_INFO("Python interpreter initialized and cocotb loaded!");
+    LOG_INFO("Python interpreter initialized and cocotb loaded!");
 
     if (get_module_ref("cocotb.log", &cocotb_log_module)) {
         // LCOV_EXCL_START
