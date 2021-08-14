@@ -244,7 +244,8 @@ extern "C" COCOTB_EXPORT int _embed_sim_init(int argc,
         // LCOV_EXCL_STOP
     }
 
-    LOG_INFO("Python interpreter initialized and cocotb loaded!");
+    //LOG_INFO("Python interpreter initialized and cocotb loaded!");
+    LOG_INFO("Python interpreter initialized and cocotb loaded! <local fork>");
 
     if (get_module_ref("cocotb.log", &cocotb_log_module)) {
         // LCOV_EXCL_START
